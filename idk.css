@@ -1,0 +1,39 @@
+.controller.edit{
+    background: url(https://i.imgur.com/PKyKdWK.png);
+    height: 810px;
+    width: 601px;
+      /*margin-left: -403px;
+        margin-top: -280px;*/
+}
+.edit .sticks {
+    position: absolute;
+    width: 361px;
+    height: 105px;
+    top: 308px;
+    left: 228px;
+}
+
+.edit .stick {
+    position: absolute;
+    background: url(ps4-assets/sticks.svgz);
+    height: 94px;
+    width: 94px;
+}
+
+.edit .stick.pressed.left {
+    background-position-x: -96px;
+}
+
+.edit .stick.pressed.right {
+    background-position-x: -192px;
+}
+
+.edit .stick.left {
+    top: 0;
+    left: 0;
+}
+
+.edit .stick.right {
+    top: calc(100% - 105px);
+    left: calc(100% - 105px);
+}
